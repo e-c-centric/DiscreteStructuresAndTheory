@@ -1,0 +1,6 @@
+mother(jane, bob).
+father(john, bob).
+father(bob, anne).
+grandfather(X, Y) :-
+    father(Z, Y), (mother(X, Z) ; father(X, Z)).
+
