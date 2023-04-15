@@ -91,20 +91,20 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(480,300)" to="(480,550)"/>
     <wire from="(290,290)" to="(360,290)"/>
     <wire from="(220,250)" to="(220,310)"/>
+    <comp lib="1" loc="(280,300)" name="AND Gate"/>
     <comp lib="0" loc="(590,230)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(410,300)" name="OR Gate"/>
-    <comp lib="1" loc="(200,250)" name="OR Gate"/>
     <comp lib="0" loc="(20,260)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
+    <comp lib="1" loc="(290,390)" name="AND Gate"/>
+    <comp lib="1" loc="(410,300)" name="OR Gate"/>
     <comp lib="0" loc="(20,320)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="1" loc="(280,300)" name="AND Gate"/>
-    <comp lib="1" loc="(290,390)" name="AND Gate"/>
+    <comp lib="1" loc="(200,250)" name="OR Gate"/>
   </circuit>
 </project>
